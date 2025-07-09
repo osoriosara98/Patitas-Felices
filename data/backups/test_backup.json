@@ -1,0 +1,751 @@
+{
+  "propietarios": {
+    "101": {
+      "id": "101",
+      "nombre": "Juan Pérez",
+      "telefono": "300-123-4567",
+      "correo": "juan.perez@email.com",
+      "direccion": "Calle 10 #20-30",
+      "mascotas": [
+        "10001",
+        "10003"
+      ]
+    },
+    "102": {
+      "id": "102",
+      "nombre": "María García",
+      "telefono": "310-987-6543",
+      "correo": "maria.garcia@email.com",
+      "direccion": "Carrera 15 #25-40",
+      "mascotas": [
+        "10002",
+        "10014"
+      ]
+    },
+    "103": {
+      "id": "103",
+      "nombre": "Carlos Rodríguez",
+      "telefono": "320-555-1234",
+      "correo": "carlos.rod@email.com",
+      "direccion": "Avenida 80 #12-15",
+      "mascotas": [
+        "10004",
+        "10016"
+      ]
+    },
+    "104": {
+      "id": "104",
+      "nombre": "Ana Martínez",
+      "telefono": "315-789-0123",
+      "correo": "ana.martinez@email.com",
+      "direccion": "Calle 45 #67-89",
+      "mascotas": [
+        "10005",
+        "10015"
+      ]
+    },
+    "105": {
+      "id": "105",
+      "nombre": "Luis Felipe",
+      "telefono": "301-456-7890",
+      "correo": "luis.felipe@email.com",
+      "direccion": "Carrera 30 #45-60",
+      "mascotas": [
+        "10007",
+        "10006"
+      ]
+    },
+    "106": {
+      "id": "106",
+      "nombre": "Carmen Silva",
+      "telefono": "318-234-5678",
+      "correo": "carmen.silva@email.com",
+      "direccion": "Avenida 68 #23-45",
+      "mascotas": [
+        "10009",
+        "10008"
+      ]
+    },
+    "107": {
+      "id": "107",
+      "nombre": "Roberto Castro",
+      "telefono": "302-345-6789",
+      "correo": "roberto.castro@email.com",
+      "direccion": "Calle 85 #12-34",
+      "mascotas": [
+        "10011",
+        "10010"
+      ]
+    },
+    "108": {
+      "id": "108",
+      "nombre": "Sandra López",
+      "telefono": "319-567-8901",
+      "correo": "sandra.lopez@email.com",
+      "direccion": "Carrera 7 #89-12",
+      "mascotas": [
+        "10013",
+        "10012"
+      ]
+    }
+  },
+  "pacientes": {
+    "10001": {
+      "id": "10001",
+      "nombre": "Max",
+      "edad": "3",
+      "especie": "Perro",
+      "raza": "Golden Retriever",
+      "peso": "25",
+      "sexo": "Macho",
+      "id_propietario": "101"
+    },
+    "10003": {
+      "id": "10003",
+      "nombre": "Rocky",
+      "edad": "5",
+      "especie": "Perro",
+      "raza": "Pastor Alemán",
+      "peso": "30",
+      "sexo": "Macho",
+      "id_propietario": "101"
+    },
+    "10005": {
+      "id": "10005",
+      "nombre": "Buddy",
+      "edad": "2",
+      "especie": "Perro",
+      "raza": "Labrador",
+      "peso": "28",
+      "sexo": "Macho",
+      "id_propietario": "104"
+    },
+    "10007": {
+      "id": "10007",
+      "nombre": "Bella",
+      "edad": "4",
+      "especie": "Perro",
+      "raza": "Bulldog Francés",
+      "peso": "12",
+      "sexo": "Hembra",
+      "id_propietario": "105"
+    },
+    "10009": {
+      "id": "10009",
+      "nombre": "Zeus",
+      "edad": "6",
+      "especie": "Perro",
+      "raza": "Rottweiler",
+      "peso": "45",
+      "sexo": "Macho",
+      "id_propietario": "106"
+    },
+    "10011": {
+      "id": "10011",
+      "nombre": "Lola",
+      "edad": "1",
+      "especie": "Perro",
+      "raza": "Chihuahua",
+      "peso": "3",
+      "sexo": "Hembra",
+      "id_propietario": "107"
+    },
+    "10013": {
+      "id": "10013",
+      "nombre": "Thor",
+      "edad": "7",
+      "especie": "Perro",
+      "raza": "Husky Siberiano",
+      "peso": "35",
+      "sexo": "Macho",
+      "id_propietario": "108"
+    },
+    "10015": {
+      "id": "10015",
+      "nombre": "Nina",
+      "edad": "3",
+      "especie": "Perro",
+      "raza": "Border Collie",
+      "peso": "22",
+      "sexo": "Hembra",
+      "id_propietario": "104"
+    },
+    "10002": {
+      "id": "10002",
+      "nombre": "Luna",
+      "edad": "2",
+      "especie": "Gato",
+      "raza": "Siamés",
+      "peso": "4",
+      "sexo": "Hembra",
+      "id_propietario": "102"
+    },
+    "10004": {
+      "id": "10004",
+      "nombre": "Mimi",
+      "edad": "1",
+      "especie": "Gato",
+      "raza": "Persa",
+      "peso": "3",
+      "sexo": "Hembra",
+      "id_propietario": "103"
+    },
+    "10006": {
+      "id": "10006",
+      "nombre": "Whiskers",
+      "edad": "5",
+      "especie": "Gato",
+      "raza": "Maine Coon",
+      "peso": "7",
+      "sexo": "Macho",
+      "id_propietario": "105"
+    },
+    "10008": {
+      "id": "10008",
+      "nombre": "Shadow",
+      "edad": "3",
+      "especie": "Gato",
+      "raza": "Angora",
+      "peso": "5",
+      "sexo": "Macho",
+      "id_propietario": "106"
+    },
+    "10010": {
+      "id": "10010",
+      "nombre": "Cleopatra",
+      "edad": "4",
+      "especie": "Gato",
+      "raza": "Esfinge",
+      "peso": "4",
+      "sexo": "Hembra",
+      "id_propietario": "107"
+    },
+    "10012": {
+      "id": "10012",
+      "nombre": "Garfield",
+      "edad": "2",
+      "especie": "Gato",
+      "raza": "Común Europeo",
+      "peso": "6",
+      "sexo": "Macho",
+      "id_propietario": "108"
+    },
+    "10014": {
+      "id": "10014",
+      "nombre": "Princess",
+      "edad": "6",
+      "especie": "Gato",
+      "raza": "Ragdoll",
+      "peso": "5",
+      "sexo": "Hembra",
+      "id_propietario": "102"
+    },
+    "10016": {
+      "id": "10016",
+      "nombre": "Felix",
+      "edad": "1",
+      "especie": "Gato",
+      "raza": "British Shorthair",
+      "peso": "4",
+      "sexo": "Macho",
+      "id_propietario": "103"
+    }
+  },
+  "citas": [
+    {
+      "id": "1001",
+      "fecha": "2024-12-15",
+      "hora": "10:00",
+      "motivo": "Vacunación anual",
+      "id_paciente": "10001",
+      "id_veterinario": "1234",
+      "estado": "realizada"
+    },
+    {
+      "id": "1002",
+      "fecha": "2024-12-16",
+      "hora": "14:30",
+      "motivo": "Control rutinario",
+      "id_paciente": "10002",
+      "id_veterinario": "5678",
+      "estado": "realizada"
+    },
+    {
+      "id": "1003",
+      "fecha": "2024-12-18",
+      "hora": "09:00",
+      "motivo": "Revisión dental",
+      "id_paciente": "10003",
+      "id_veterinario": "1234",
+      "estado": "realizada"
+    },
+    {
+      "id": "1004",
+      "fecha": "2024-12-20",
+      "hora": "16:00",
+      "motivo": "Desparasitación",
+      "id_paciente": "10004",
+      "id_veterinario": "5678",
+      "estado": "realizada"
+    },
+    {
+      "id": "1005",
+      "fecha": "2025-01-10",
+      "hora": "11:00",
+      "motivo": "Cirugía menor",
+      "id_paciente": "10005",
+      "id_veterinario": "1234",
+      "estado": "realizada"
+    },
+    {
+      "id": "1006",
+      "fecha": "2025-01-12",
+      "hora": "08:30",
+      "motivo": "Control post-operatorio",
+      "id_paciente": "10006",
+      "id_veterinario": "5678",
+      "estado": "realizada"
+    },
+    {
+      "id": "1007",
+      "fecha": "2025-07-15",
+      "hora": "09:00",
+      "motivo": "Vacunación",
+      "id_paciente": "10007",
+      "id_veterinario": "1234",
+      "estado": "agendada"
+    },
+    {
+      "id": "1008",
+      "fecha": "2025-07-16",
+      "hora": "10:30",
+      "motivo": "Control general",
+      "id_paciente": "10008",
+      "id_veterinario": "5678",
+      "estado": "agendada"
+    },
+    {
+      "id": "1009",
+      "fecha": "2025-07-18",
+      "hora": "14:00",
+      "motivo": "Revisión dermatológica",
+      "id_paciente": "10009",
+      "id_veterinario": "1234",
+      "estado": "agendada"
+    },
+    {
+      "id": "1010",
+      "fecha": "2025-07-20",
+      "hora": "15:30",
+      "motivo": "Limpieza dental",
+      "id_paciente": "10010",
+      "id_veterinario": "5678",
+      "estado": "agendada"
+    },
+    {
+      "id": "1011",
+      "fecha": "2025-08-01",
+      "hora": "11:00",
+      "motivo": "Control de peso",
+      "id_paciente": "10011",
+      "id_veterinario": "1234",
+      "estado": "agendada"
+    },
+    {
+      "id": "1012",
+      "fecha": "2025-08-03",
+      "hora": "16:00",
+      "motivo": "Vacunación antirrábica",
+      "id_paciente": "10012",
+      "id_veterinario": "5678",
+      "estado": "agendada"
+    },
+    {
+      "id": "1013",
+      "fecha": "2025-06-25",
+      "hora": "10:00",
+      "motivo": "Consulta general",
+      "id_paciente": "10013",
+      "id_veterinario": "1234",
+      "estado": "cancelada"
+    },
+    {
+      "id": "1014",
+      "fecha": "2025-06-27",
+      "hora": "14:30",
+      "motivo": "Revisión ocular",
+      "id_paciente": "10014",
+      "id_veterinario": "5678",
+      "estado": "cancelada"
+    },
+    {
+      "id": "1015",
+      "fecha": "2025-06-30",
+      "hora": "09:30",
+      "motivo": "Control nutricional",
+      "id_paciente": "10015",
+      "id_veterinario": "1234",
+      "estado": "cancelada"
+    }
+  ],
+  "medicamentos": {
+    "101": {
+      "id": "101",
+      "nombre": "Amoxicilina",
+      "descripcion": "Antibiótico para infecciones bacterianas",
+      "stock": 50,
+      "fecha_vencimiento": "2025-06-30",
+      "precio": 15000
+    },
+    "102": {
+      "id": "102",
+      "nombre": "Doxiciclina",
+      "descripcion": "Antibiótico de amplio espectro",
+      "stock": 30,
+      "fecha_vencimiento": "2025-08-15",
+      "precio": 18000
+    },
+    "103": {
+      "id": "103",
+      "nombre": "Cefalexina",
+      "descripcion": "Antibiótico para infecciones de piel",
+      "stock": 25,
+      "fecha_vencimiento": "2025-04-20",
+      "precio": 12000
+    },
+    "104": {
+      "id": "104",
+      "nombre": "Vacuna Rabia",
+      "descripcion": "Vacuna contra la rabia",
+      "stock": 25,
+      "fecha_vencimiento": "2024-12-31",
+      "precio": 25000
+    },
+    "105": {
+      "id": "105",
+      "nombre": "Vacuna Triple",
+      "descripcion": "Vacuna contra moquillo, hepatitis y parvovirus",
+      "stock": 20,
+      "fecha_vencimiento": "2025-03-15",
+      "precio": 22000
+    },
+    "106": {
+      "id": "106",
+      "nombre": "Vacuna Leucemia Felina",
+      "descripcion": "Vacuna específica para gatos",
+      "stock": 15,
+      "fecha_vencimiento": "2025-01-30",
+      "precio": 28000
+    },
+    "107": {
+      "id": "107",
+      "nombre": "Antiparasitario Interno",
+      "descripcion": "Contra parásitos intestinales",
+      "stock": 5,
+      "fecha_vencimiento": "2024-08-15",
+      "precio": 12000
+    },
+    "108": {
+      "id": "108",
+      "nombre": "Antipulgas",
+      "descripcion": "Tratamiento contra pulgas y garrapatas",
+      "stock": 40,
+      "fecha_vencimiento": "2025-09-10",
+      "precio": 16000
+    },
+    "109": {
+      "id": "109",
+      "nombre": "Desparasitante Tópico",
+      "descripcion": "Aplicación externa",
+      "stock": 35,
+      "fecha_vencimiento": "2025-05-25",
+      "precio": 14000
+    },
+    "110": {
+      "id": "110",
+      "nombre": "Meloxicam",
+      "descripcion": "Antiinflamatorio para perros",
+      "stock": 100,
+      "fecha_vencimiento": "2025-03-20",
+      "precio": 8000
+    },
+    "111": {
+      "id": "111",
+      "nombre": "Tramadol",
+      "descripcion": "Analgésico para dolor moderado",
+      "stock": 60,
+      "fecha_vencimiento": "2025-07-18",
+      "precio": 20000
+    },
+    "112": {
+      "id": "112",
+      "nombre": "Carprofeno",
+      "descripcion": "Antiinflamatorio no esteroideo",
+      "stock": 45,
+      "fecha_vencimiento": "2025-02-28",
+      "precio": 15000
+    },
+    "113": {
+      "id": "113",
+      "nombre": "Furosemida",
+      "descripcion": "Diurético para problemas cardíacos",
+      "stock": 30,
+      "fecha_vencimiento": "2025-10-12",
+      "precio": 18000
+    },
+    "114": {
+      "id": "114",
+      "nombre": "Omeprazol",
+      "descripcion": "Protector gástrico",
+      "stock": 50,
+      "fecha_vencimiento": "2025-06-08",
+      "precio": 9000
+    },
+    "115": {
+      "id": "115",
+      "nombre": "Prednisolona",
+      "descripcion": "Corticoide para alergias",
+      "stock": 25,
+      "fecha_vencimiento": "2025-04-15",
+      "precio": 12000
+    },
+    "116": {
+      "id": "116",
+      "nombre": "Epinefrina",
+      "descripcion": "Para emergencias alérgicas",
+      "stock": 3,
+      "fecha_vencimiento": "2025-11-30",
+      "precio": 35000
+    },
+    "117": {
+      "id": "117",
+      "nombre": "Insulina Canina",
+      "descripcion": "Para diabetes en perros",
+      "stock": 8,
+      "fecha_vencimiento": "2025-01-20",
+      "precio": 45000
+    },
+    "118": {
+      "id": "118",
+      "nombre": "Omega 3",
+      "descripcion": "Suplemento para pelaje y piel",
+      "stock": 80,
+      "fecha_vencimiento": "2026-02-14",
+      "precio": 25000
+    },
+    "119": {
+      "id": "119",
+      "nombre": "Calcio + Vitamina D",
+      "descripcion": "Suplemento óseo",
+      "stock": 70,
+      "fecha_vencimiento": "2025-12-05",
+      "precio": 15000
+    },
+    "120": {
+      "id": "120",
+      "nombre": "Probióticos",
+      "descripcion": "Para salud digestiva",
+      "stock": 55,
+      "fecha_vencimiento": "2025-09-30",
+      "precio": 18000
+    }
+  },
+  "historias_clinicas": [
+    {
+      "id": "20001",
+      "id_paciente": "10001",
+      "diagnostico": "Paciente sano",
+      "tratamiento": "Vacuna aplicada correctamente",
+      "vacunas": "Vacuna anual",
+      "observaciones": "Buen estado general, peso ideal",
+      "fecha": "2025-07-01 23:25:26"
+    },
+    {
+      "id": "20002",
+      "id_paciente": "10003",
+      "diagnostico": "Artritis leve",
+      "tratamiento": "Antiinflamatorio Meloxicam",
+      "vacunas": "",
+      "observaciones": "Mejoría esperada en 2 semanas",
+      "fecha": "2025-07-01 23:25:26"
+    },
+    {
+      "id": "20003",
+      "id_paciente": "10005",
+      "diagnostico": "Otitis externa",
+      "tratamiento": "Limpieza + antibiótico tópico",
+      "vacunas": "",
+      "observaciones": "Control en 7 días",
+      "fecha": "2025-07-01 23:25:26"
+    },
+    {
+      "id": "20004",
+      "id_paciente": "10007",
+      "diagnostico": "Displasia de cadera",
+      "tratamiento": "Manejo conservador con analgésicos",
+      "vacunas": "",
+      "observaciones": "Evitar ejercicio intenso",
+      "fecha": "2025-07-01 23:25:26"
+    },
+    {
+      "id": "20005",
+      "id_paciente": "10009",
+      "diagnostico": "Torsión gástrica",
+      "tratamiento": "Cirugía de emergencia exitosa",
+      "vacunas": "",
+      "observaciones": "Recuperación completa",
+      "fecha": "2025-07-01 23:25:26"
+    },
+    {
+      "id": "20006",
+      "id_paciente": "10011",
+      "diagnostico": "Luxación de rótula",
+      "tratamiento": "Reducción manual",
+      "vacunas": "",
+      "observaciones": "Reposo por 10 días",
+      "fecha": "2025-07-01 23:25:26"
+    },
+    {
+      "id": "20007",
+      "id_paciente": "10013",
+      "diagnostico": "Dermatitis alérgica",
+      "tratamiento": "Corticoides + baños medicinales",
+      "vacunas": "",
+      "observaciones": "Identificar alérgeno",
+      "fecha": "2025-07-01 23:25:26"
+    },
+    {
+      "id": "20008",
+      "id_paciente": "10015",
+      "diagnostico": "Obesidad",
+      "tratamiento": "Plan nutricional personalizado",
+      "vacunas": "",
+      "observaciones": "Perder 3kg en 2 meses",
+      "fecha": "2025-07-01 23:25:26"
+    },
+    {
+      "id": "20009",
+      "id_paciente": "10002",
+      "diagnostico": "Conjuntivitis",
+      "tratamiento": "Gotas oftálmicas",
+      "vacunas": "",
+      "observaciones": "Mejora esperada en 5 días",
+      "fecha": "2025-07-01 23:25:26"
+    },
+    {
+      "id": "20010",
+      "id_paciente": "10004",
+      "diagnostico": "Cistitis idiopática",
+      "tratamiento": "Antibióticos + dieta especial",
+      "vacunas": "",
+      "observaciones": "Aumentar consumo de agua",
+      "fecha": "2025-07-01 23:25:26"
+    },
+    {
+      "id": "20011",
+      "id_paciente": "10006",
+      "diagnostico": "Gingivitis severa",
+      "tratamiento": "Limpieza dental bajo anestesia",
+      "vacunas": "",
+      "observaciones": "Higiene oral diaria",
+      "fecha": "2025-07-01 23:25:26"
+    },
+    {
+      "id": "20012",
+      "id_paciente": "10008",
+      "diagnostico": "Hipertiroidismo",
+      "tratamiento": "Medicación metimazol",
+      "vacunas": "",
+      "observaciones": "Control mensual de T4",
+      "fecha": "2025-07-01 23:25:26"
+    },
+    {
+      "id": "20013",
+      "id_paciente": "10010",
+      "diagnostico": "Herida por pelea",
+      "tratamiento": "Sutura + antibióticos",
+      "vacunas": "",
+      "observaciones": "Mantener en interior",
+      "fecha": "2025-07-01 23:25:26"
+    },
+    {
+      "id": "20014",
+      "id_paciente": "10012",
+      "diagnostico": "Parásitos intestinales",
+      "tratamiento": "Desparasitante oral",
+      "vacunas": "",
+      "observaciones": "Repetir en 15 días",
+      "fecha": "2025-07-01 23:25:26"
+    },
+    {
+      "id": "20015",
+      "id_paciente": "10014",
+      "diagnostico": "Insuficiencia renal",
+      "tratamiento": "Dieta renal + fluidoterapia",
+      "vacunas": "",
+      "observaciones": "Pronóstico reservado",
+      "fecha": "2025-07-01 23:25:26"
+    },
+    {
+      "id": "20016",
+      "id_paciente": "10016",
+      "diagnostico": "Vacunación múltiple",
+      "tratamiento": "Triple felina + leucemia",
+      "vacunas": "",
+      "observaciones": "Próxima dosis en 1 año",
+      "fecha": "2025-07-01 23:25:26"
+    },
+    {
+      "id": "20017",
+      "id_paciente": "10001",
+      "diagnostico": "Control post-vacunal",
+      "tratamiento": "Sin reacciones adversas",
+      "vacunas": "",
+      "observaciones": "Próximo control en 1 año",
+      "fecha": "2025-07-01 23:25:26"
+    },
+    {
+      "id": "20018",
+      "id_paciente": "10005",
+      "diagnostico": "Revisión post-quirúrgica",
+      "tratamiento": "Cicatrización excelente",
+      "vacunas": "",
+      "observaciones": "Alta médica",
+      "fecha": "2025-07-01 23:25:26"
+    },
+    {
+      "id": "20019",
+      "id_paciente": "10009",
+      "diagnostico": "Control cardiológico",
+      "tratamiento": "Función cardíaca normal",
+      "vacunas": "",
+      "observaciones": "Control anual",
+      "fecha": "2025-07-01 23:25:26"
+    },
+    {
+      "id": "20020",
+      "id_paciente": "10002",
+      "diagnostico": "Seguimiento conjuntivitis",
+      "tratamiento": "Resolución completa",
+      "vacunas": "",
+      "observaciones": "Tratamiento finalizado",
+      "fecha": "2025-07-01 23:25:26"
+    }
+  ],
+  "metadata": {
+    "fecha_exportacion": "2025-07-01T23:25:26.680141",
+    "version": "1.0",
+    "estadisticas": {
+      "propietarios": 8,
+      "pacientes": 16,
+      "citas_total": 15,
+      "citas_agendadas": 6,
+      "citas_realizadas": 6,
+      "citas_canceladas": 3,
+      "medicamentos": 20,
+      "stock_bajo": 3,
+      "historias_clinicas": 20,
+      "ultima_actualizacion": "2025-07-01 23:25:26"
+    }
+  }
+}
