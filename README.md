@@ -145,6 +145,7 @@ Patitas-felices/
 │   ├── editar_datos.py            # Edición segura de información
 │   └── informes.py                # Generación de reportes avanzados
 ├── 📄 main.py                     # 🚀 Programa principal con interfaz modular
+├── 📄 .gitignore                  # no subir al repositorio archivos innecesarios
 ├── 📄 datos_prueba.py            # 🎯 Datos de prueba robustos (60+ registros)
 ├── 📄 analizador_backup.py       # Función auxiliar para ver estadistica sobre los backups
 └── 📄 README.md                   # 📚 Documentación principal actualizada
